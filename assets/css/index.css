@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  background: url("../img/enter.jpeg") no-repeat center center/cover;
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.title {
+  color: black;
+  font-weight: bold;
+  text-shadow: none;
+  font-size: 5em;
+  font-weight: bold;
+}
+
+.title:hover {
+  color: greenyellow;
+  font-weight: bold;
+  text-shadow: none;
+  font-size: 5em;
+  font-weight: bold;
+}
+
+.title-container {
+  position: absolute; /* Absolute positioning */
+  top: 30px; /* Distance from the top */
+  left: 30px; /* Distance from the left */
+  text-align: left;
+  width: auto; /* Adjust width as needed */
+}
+
+.button-container {
+  position: relative;
+  text-align: left;
+  width: 90%;
+}
+.enter-button {
+  position: absolute;
+  top: 10px;
+  right: 270px;
+  padding: 10px 20px;
+  background: white;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  border: 2px solid black;
+}
+
+.enter-button:hover {
+  background: black;
+  color: white;
+}
